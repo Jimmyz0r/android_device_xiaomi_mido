@@ -98,7 +98,8 @@ ro.control_privapp_permissions=enforce
 
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.qfp=false
+persist.qfp=false \
+ro.fingerprint.cleanup.unused=false
 
 # Fm
 PRODUCT_PROPERTY_OVERRIDES += \
